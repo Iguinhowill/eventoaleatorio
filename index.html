@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Evento aleatório</title>
+</head>
+<body>
+    <div>
+        <input type="button" value="Jogue novamente" onClick="window.location.reload()">
+    </div>
+    <div>
+        <div class="jogador1">
+            <p>Jogador Número 1. Selecione a sua jogada</p>
+            <button onclick="escolhaJogadorPapel()" id="Papel" class="papel">Papel</button>
+            <button onclick="escolhaJogadorTesoura()" id="Tesoura" class="tesoura">Tesoura</button>
+            <button onclick="escolhaJogadorPedra()" id="Pedra" class="pedra">Pedra</button>
+        </div>
+        <div class="jogador2">
+            <p>BOT</p>
+            <button onclick="sortearNumero()" id="btnSortear" disabled="false" >Sortear para o bot</button>
+            <span id="img"></span>
+        </div>
+    </div>
+    <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button> 
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

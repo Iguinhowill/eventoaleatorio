@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-07-super-trunfo-bg.png');
+    color: white;
+    text-align: center;
+}
+
+button{
+    color: black;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.pedra{
+    height: 100px;
+    width: 100px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOze2K3-gRuNE0JgD7yI41ktazn21pVujujBDklIcEdnxFeEPEMHxgJNtaHgRYItTQ2KU&usqp=CAU');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.papel{
+    height: 100px;
+    width: 100px;
+    background-image: url('https://www.bigmae.com/wp-content/uploads/2010/07/jogo-papel-pedra-tesoura.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.tesoura{
+    height: 100px;
+    width: 100px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlp8V9h9y6E6t8_yN_-UbT_gFiLiil9JcaHglXTp_BFjfHawQ2O10s6Su1ORC3lS9JU_8&usqp=CAU');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.tesoura:hover{
+    opacity: 0.8;
+    transform: scale(1.08);
+}
+
+.papel:hover{
+    opacity: 0.8;
+    transform: scale(1.08);
+}
+
+.pedra:hover{
+    opacity: 0.8;
+    transform: scale(1.08);
+}
+.padrao{
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.jogador2{
+    text-align: center;
+}
+#img{
+    height: 100px;
+    width: 100px;
+    display: block;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
